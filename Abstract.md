@@ -29,7 +29,11 @@ When I saw the maximum and minimum score that was an output of the describe func
 
 This is an entry error in the data file. Or it could mean that the severity of the situation was such that the restaurant had to be shut down. Only one restaurant had such a rating.
 
- 
+## Maryland data
+
+In this data, instead of score, they have mentioned whether the restaurant has passed the inspection or not. This kind of scoring is done by the LIVES standard. LIVES is an open data standard which allows municipalities to publish restaurant inspection information to Yelp. Local Inspector Value-entry Specification (LIVES) lets citizens better use inspection results to inform where they will eat next. In 2012, Yelp partnered with Code for America and the City of San Francisco to develop an open data standard which allows state and municipal health agencies to collect, format and publish restaurant inspection information on Yelp. The City of New York joined the effort at an early stage as well.
+
+On looking at the dataset, there were 16000 rows with Nan values. By removing the nan values to facilitate analysis, the number of rows reduced to almost 8000. The inspection details include date of inspection, inspection id, inspection result and inspection type. There are about 100 rows which have failed the inspection. But because of duplicate values, several restaurants are repeated. Around 48 restaurants have failed the inspection in actuality. 
 
 ## Results
 
