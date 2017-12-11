@@ -29,6 +29,13 @@ The Inspection data for New York has 18 columns. Some of them are:
 6) Score  
 7) Record Date
 
+The inspection data for Maryland has 16 columns. Some are:
+1) business_id
+2) business_name
+3) inspection_id
+4) inspection_result
+5) inspection_date
+
 ### License
 
 All the data has been taken from data.gov, the official site for open data from the U.S. Government
